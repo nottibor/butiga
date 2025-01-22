@@ -1953,12 +1953,13 @@ figcaption {
   grid-template-columns: max-content 1fr;
   grid-auto-columns: 1fr;
   align-items: flex-start;
-  padding: .25rem;
+  padding: .5rem;
   text-decoration: none;
   display: flex;
 }
 
 .navbar12_dropdown-link:hover {
+  border: 1px solid var(--base-color-brand--blue);
   background-color: var(--background-color--clear-blue-background);
 }
 
