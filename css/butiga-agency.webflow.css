@@ -4129,8 +4129,9 @@ figcaption {
 
 .clutch-review {
   z-index: 99999;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
+  background-color: var(--base-color-neutral--neutral-lightest);
+  margin-bottom: .5rem;
+  margin-right: .5rem;
   position: fixed;
   inset: auto 0% 0% auto;
 }
