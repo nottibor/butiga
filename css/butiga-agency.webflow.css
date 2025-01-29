@@ -4123,6 +4123,18 @@ figcaption {
   padding-top: 2rem;
 }
 
+.div-block {
+  width: 1278rem;
+}
+
+.clutch-review {
+  z-index: 99999;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  position: fixed;
+  inset: auto 0% 0% auto;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 3.25rem;
