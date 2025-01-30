@@ -4129,11 +4129,15 @@ figcaption {
 
 .clutch-review {
   z-index: 99999;
-  background-color: var(--base-color-neutral--neutral-lightest);
   margin-bottom: .5rem;
   margin-right: .5rem;
   position: fixed;
   inset: auto 0% 0% auto;
+}
+
+.clutch-review-code-embed {
+  background-color: var(--base-color-neutral--neutral-lightest);
+  padding: .25rem;
 }
 
 @media screen and (max-width: 991px) {
