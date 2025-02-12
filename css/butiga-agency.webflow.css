@@ -1,28 +1,28 @@
 :root {
-  --background-color--background-primary: #002f43;
+  --background-color--background-primary: #060f2a;
   --text-color--text-primary: #e3e3e3;
   --link-color--link-primary: #e3e3e3;
   --link-color--link-secondary: #4e31aa;
-  --border-color--border-primary: #3795bd;
+  --border-color--border-primary: #2d56eb;
   --base-color-neutral--black: #000;
   --base-color-neutral--white: white;
   --background-color--clear-purple-background: #fff3;
-  --background-color--background-secondary: #3795bd;
+  --background-color--background-secondary: #2d56eb;
   --background-color--background-tertiary: #e3e3e3;
-  --text-color--text-secondary: #3795bd;
+  --text-color--text-secondary: #2d56eb;
   --background-color--background-alternate: #4e31aa;
-  --background-color--clear-blue-background: #3795bd33;
+  --background-color--clear-blue-background: #2d56eb1a;
   --border-color--border-secondary: #e3e3e3;
   --black-archive\<deleted\|variable-dccb7db6\>: black;
-  --text-color--text-alternate: #002f43;
-  --link-color--link-alternate: #3795bd;
+  --text-color--text-alternate: #060f2a;
+  --link-color--link-alternate: #2d56eb;
   --base-color-system--success-green-light: #d8ffd9;
   --text-color--text-success: #4f9f52;
   --base-color-system--error-red-light: #ffc4c2;
   --text-color--text-error: #c83532;
   --base-color-brand--blue: #3795bd;
   --base-color-neutral--neutral-lightest: #eee;
-  --base-color-brand--dark-blue: #002f43;
+  --base-color-brand--dark-blue: #060f2a;
   --base-color-neutral--neutral-lighter: #ccc;
   --base-color-neutral--neutral-light: #aaa;
   --base-color-neutral--neutral: #666;
@@ -33,7 +33,7 @@
   --base-color-system--error-red: #c83532;
   --base-color-system--information-orange: #ef8a43;
   --base-color-system--yellow-warning: #eac448;
-  --border-color--border-alternate: #002f43;
+  --border-color--border-alternate: #060f2a;
 }
 
 .w-layout-grid {
@@ -841,6 +841,7 @@ figcaption {
   background-color: var(--background-color--clear-blue-background);
   box-shadow: none;
   color: var(--text-color--text-primary);
+  border-radius: 0;
   padding: .5rem 1.25rem;
 }
 
@@ -1873,7 +1874,7 @@ figcaption {
   margin-right: auto;
   padding: .1rem 5%;
   display: flex;
-  box-shadow: 0 0 #3795bd00, 0 1.5px 8.6px #3795bd3a, 0 3.5px 17.8px #3795bd43;
+  box-shadow: 0 0 #3795bd00, 0 1.5px 8.6px #2d56eb33, 0 3.5px 17.8px #2d56eb33;
 }
 
 .navbar12_link {
@@ -2314,12 +2315,16 @@ figcaption {
   border-bottom: 1px solid var(--background-color--clear-purple-background);
   justify-content: flex-start;
   align-items: center;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding: 1.5rem;
   text-decoration: none;
   transition: all .3s;
   display: flex;
   position: relative;
+}
+
+.cta38_link-block:hover {
+  background-color: var(--background-color--clear-blue-background);
+  color: var(--link-color--link-secondary);
 }
 
 .rl-styleguide_label-2 {
@@ -2374,10 +2379,6 @@ figcaption {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.2;
-}
-
-.cta38_link-text:hover {
-  color: var(--text-color--text-secondary);
 }
 
 .cta-38-instructions-delete {
