@@ -20,7 +20,7 @@
   --text-color--text-success: #4f9f52;
   --base-color-system--error-red-light: #ffc4c2;
   --text-color--text-error: #c83532;
-  --base-color-brand--blue: #3795bd;
+  --base-color-brand--blue: #385ed5;
   --base-color-neutral--neutral-lightest: #eee;
   --base-color-brand--dark-blue: #060f2a;
   --base-color-neutral--neutral-lighter: #ccc;
@@ -4582,7 +4582,6 @@ figcaption {
 
   .navbar12_menu.is-page-height-tablet {
     border: 1px solid var(--border-color--border-primary);
-    height: 100dvh;
     height: 100dvh;
     padding-bottom: 6.5rem;
     transition: height .5s;
