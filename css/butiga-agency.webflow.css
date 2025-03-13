@@ -838,7 +838,7 @@ figcaption {
 .button.is-small {
   border-width: 1px;
   border-color: var(--border-color--border-primary);
-  background-color: var(--background-color--clear-blue-background);
+  background-color: var(--background-color--background-secondary);
   box-shadow: none;
   color: var(--text-color--text-primary);
   border-radius: 0;
@@ -1960,8 +1960,8 @@ figcaption {
 }
 
 .navbar12_dropdown-link:hover {
-  border: 1px solid var(--base-color-brand--blue);
-  background-color: var(--background-color--clear-blue-background);
+  background-color: var(--background-color--background-secondary);
+  border-radius: .6rem;
 }
 
 .navbar12_icon-wrapper {
