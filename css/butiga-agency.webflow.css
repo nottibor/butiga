@@ -841,7 +841,7 @@ figcaption {
   background-color: var(--background-color--background-secondary);
   box-shadow: none;
   color: var(--text-color--text-primary);
-  border-radius: 0;
+  border-radius: .7rem;
   padding: .5rem 1.25rem;
 }
 
@@ -1863,10 +1863,11 @@ figcaption {
 }
 
 .navbar {
-  border: 1px solid var(--border-color--border-primary);
+  border: 1px solid var(--base-color-brand--blue);
   background-color: var(--background-color--clear-blue-background);
   -webkit-backdrop-filter: blur(50px);
   backdrop-filter: blur(50px);
+  border-radius: 1rem;
   align-items: center;
   width: 60%;
   min-height: 4.5rem;
@@ -1874,7 +1875,6 @@ figcaption {
   margin-right: auto;
   padding: .1rem 5%;
   display: flex;
-  box-shadow: 0 0 #3795bd00, 0 1.5px 8.6px #2d56eb33, 0 3.5px 17.8px #2d56eb33;
 }
 
 .navbar12_link {
@@ -1925,6 +1925,7 @@ figcaption {
 .navbar12_dropdown-list.w--open {
   border: 1px solid var(--border-color--border-primary);
   background-color: var(--background-color--background-primary);
+  border-radius: 1rem;
   width: 40rem;
   padding: 1.5rem;
   right: -100%;
@@ -2141,8 +2142,9 @@ figcaption {
 
 .footer11_top-wrapper {
   grid-column-gap: 3vw;
-  border: 1px solid var(--border-color--border-primary);
+  border: 1px solid var(--base-color-brand--blue);
   background-color: var(--background-color--clear-blue-background);
+  border-radius: 1rem;
   grid-template-rows: auto;
   grid-template-columns: .5fr .5fr;
   align-items: start;
@@ -2299,8 +2301,8 @@ figcaption {
 }
 
 .faq11_accordion {
-  border: 1px solid var(--border-color--border-primary);
   background-color: var(--background-color--clear-blue-background);
+  border-radius: 1rem;
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -3815,7 +3817,7 @@ figcaption {
   border: 1px solid var(--border-color--border-primary);
   background-color: var(--background-color--clear-blue-background);
   color: var(--text-color--text-primary);
-  border-radius: 0;
+  border-radius: .7rem;
   height: auto;
   min-height: 2.75rem;
   margin-bottom: 0;
@@ -4077,7 +4079,7 @@ figcaption {
   border: 1px solid var(--border-color--border-primary);
   background-color: var(--background-color--clear-blue-background);
   color: var(--text-color--text-primary);
-  border-radius: 0;
+  border-radius: .7rem;
   height: auto;
   min-height: 2.75rem;
   margin-bottom: 0;
@@ -5785,7 +5787,7 @@ figcaption {
   }
 
   .navbar12_dropdown-link {
-    padding-left: 0;
+    padding: .5rem;
   }
 
   .header105_heading-wrapper {
