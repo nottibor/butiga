@@ -1,5 +1,5 @@
 :root {
-  --background-color--background-primary: #060f2a;
+  --background-color--background-primary: #0a1844;
   --text-color--text-primary: #e3e3e3;
   --link-color--link-primary: #e3e3e3;
   --link-color--link-secondary: #4e31aa;
@@ -22,7 +22,7 @@
   --text-color--text-error: #c83532;
   --base-color-brand--blue: #385ed5;
   --base-color-neutral--neutral-lightest: #eee;
-  --base-color-brand--dark-blue: #060f2a;
+  --base-color-brand--dark-blue: #0a1844;
   --base-color-neutral--neutral-lighter: #ccc;
   --base-color-neutral--neutral-light: #aaa;
   --base-color-neutral--neutral: #666;
@@ -546,7 +546,8 @@ figcaption {
 }
 
 .text-size-medium {
-  font-size: 1.125rem;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .text-size-medium.text-left-align {
@@ -4143,6 +4144,15 @@ figcaption {
 .clutch-review-code-embed {
   background-color: var(--base-color-neutral--neutral-lightest);
   padding: .25rem;
+}
+
+.bold-text, .bold-text-2, .bold-text-3, .bold-text-4 {
+  font-weight: 600;
+}
+
+.butiga-blue-text {
+  color: var(--text-color--text-secondary);
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
