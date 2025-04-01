@@ -3814,7 +3814,6 @@ figcaption {
   border: 1px solid var(--border-color--border-primary);
   background-color: var(--background-color--clear-blue-background);
   color: var(--text-color--text-primary);
-  border-radius: .7rem;
   height: auto;
   min-height: 2.75rem;
   margin-bottom: 0;
@@ -4076,7 +4075,6 @@ figcaption {
   border: 1px solid var(--border-color--border-primary);
   background-color: var(--background-color--clear-blue-background);
   color: var(--text-color--text-primary);
-  border-radius: .7rem;
   height: auto;
   min-height: 2.75rem;
   margin-bottom: 0;
