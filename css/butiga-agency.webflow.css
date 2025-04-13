@@ -1964,6 +1964,7 @@ figcaption {
 
 .navbar12_dropdown-link:hover {
   background-color: var(--background-color--background-secondary);
+  color: var(--text-color--text-alternate);
   border-radius: .2rem;
 }
 
