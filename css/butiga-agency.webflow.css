@@ -21,13 +21,13 @@
   --base-color-system--error-red-light: #ffc4c2;
   --text-color--text-error: #c83532;
   --base-color-brand--blue: #385ed5;
+  --base-color-neutral--neutral-darker: #222;
   --base-color-neutral--neutral-lightest: #eee;
   --base-color-neutral--neutral-lighter: #ccc;
   --base-color-brand--dark-blue: #0a1844;
   --base-color-neutral--neutral-light: #aaa;
   --base-color-neutral--neutral: #666;
   --base-color-neutral--neutral-dark: #444;
-  --base-color-neutral--neutral-darker: #222;
   --base-color-neutral--neutral-darkest: #111;
   --base-color-system--success-green: #4f9f52;
   --base-color-system--error-red: #c83532;
@@ -1867,13 +1867,8 @@ figcaption {
 }
 
 .navbar {
-  border: 1px solid var(--base-color-brand--blue);
-  background-color: var(--background-color--clear-blue-background);
-  -webkit-backdrop-filter: blur(50px);
-  backdrop-filter: blur(50px);
+  background-color: var(--background-color--background-primary);
   align-items: center;
-  width: 60%;
-  min-height: 4.5rem;
   margin-left: auto;
   margin-right: auto;
   padding: .1rem 5%;
@@ -1963,7 +1958,7 @@ figcaption {
 }
 
 .navbar12_dropdown-link:hover {
-  background-color: var(--background-color--background-secondary);
+  background-color: var(--base-color-neutral--neutral-darker);
   color: var(--text-color--text-alternate);
   border-radius: .2rem;
 }
