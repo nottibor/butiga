@@ -14,13 +14,13 @@
   --background-color--background-alternate: #4e31aa;
   --background-color--clear-blue-background: #2d56eb0d;
   --border-color--border-secondary: #e3e3e3;
+  --base-color-brand--blue: #385ed5;
   --black-archive\<deleted\|variable-dccb7db6\>: black;
   --link-color--link-alternate: #060f2a;
   --base-color-system--success-green-light: #d8ffd9;
   --text-color--text-success: #4f9f52;
   --base-color-system--error-red-light: #ffc4c2;
   --text-color--text-error: #c83532;
-  --base-color-brand--blue: #385ed5;
   --base-color-neutral--neutral-darker: #222;
   --base-color-neutral--neutral-lightest: #eee;
   --base-color-neutral--neutral-lighter: #ccc;
@@ -845,6 +845,7 @@ figcaption {
   background-color: var(--background-color--background-secondary);
   box-shadow: none;
   color: var(--text-color--text-alternate);
+  border-radius: 5rem;
   padding: .5rem 1.25rem;
 }
 
@@ -852,6 +853,16 @@ figcaption {
   border-color: var(--border-color--border-primary);
   background-color: var(--background-color--clear-blue-background);
   color: var(--text-color--text-secondary);
+}
+
+.button.is-small.see-through {
+  background-color: var(--background-color--clear-blue-background);
+  color: var(--text-color--text-secondary);
+}
+
+.button.is-small.see-through:hover {
+  background-color: var(--base-color-brand--blue);
+  color: var(--text-color--text-alternate);
 }
 
 .button.is-small {
@@ -2141,7 +2152,6 @@ figcaption {
 .footer11_top-wrapper {
   grid-column-gap: 3vw;
   border: 1px solid var(--base-color-brand--blue);
-  background-color: var(--background-color--clear-blue-background);
   grid-template-rows: auto;
   grid-template-columns: .5fr .5fr;
   align-items: start;
@@ -2230,7 +2240,8 @@ figcaption {
 
 .testimonials {
   border: 1px solid var(--border-color--border-primary);
-  background-color: var(--background-color--clear-blue-background);
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .testimonial2_client-image {
@@ -4158,6 +4169,10 @@ figcaption {
 
 .text-block, .text-block-2, .text-block-3 {
   color: var(--text-color--text-primary);
+}
+
+.text-span {
+  color: var(--text-color--text-secondary);
 }
 
 @media screen and (max-width: 991px) {
