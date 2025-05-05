@@ -2451,6 +2451,7 @@ figcaption {
 }
 
 .content13_image-wrapper {
+  border-radius: 1rem;
   flex: 1;
   width: 100%;
 }
