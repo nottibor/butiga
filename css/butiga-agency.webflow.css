@@ -1,22 +1,22 @@
 :root {
-  --background-color--background-primary: #131313;
-  --text-color--text-primary: #e3e3e3;
-  --link-color--link-primary: #ffe600;
-  --link-color--link-secondary: #4e31aa;
-  --text-color--text-alternate: #060f2a;
-  --border-color--border-primary: #ffe600;
-  --base-color-neutral--black: #000;
+  --background-color--background-primary: #f6efda;
+  --text-color--text-primary: #131313;
+  --link-color--link-primary: #eb6536;
+  --link-color--link-secondary: #4071e9;
   --base-color-neutral--white: white;
+  --border-color--border-primary: #eb6536;
+  --base-color-brand--orange: #eb6536;
+  --background-color--clear-orange-background: #eb65360d;
+  --base-color-neutral--black: #000;
   --background-color--clear-purple-background: #fff3;
-  --background-color--background-secondary: #ffe600;
-  --background-color--background-tertiary: #e3e3e3;
-  --text-color--text-secondary: #ffe600;
+  --background-color--background-secondary: #eb6536;
+  --background-color--background-tertiary: #4071e9;
+  --text-color--text-secondary: #4071e9;
   --background-color--background-alternate: #4e31aa;
-  --background-color--clear-yellow-background: #ffe6000d;
   --border-color--border-secondary: #e3e3e3;
-  --base-color-brand--blue: #ffe600;
+  --text-color--text-alternate: #eb6536;
   --black-archive\<deleted\|variable-dccb7db6\>: black;
-  --link-color--link-alternate: #060f2a;
+  --link-color--link-alternate: #2c2cff;
   --base-color-system--success-green-light: #d8ffd9;
   --text-color--text-success: #4f9f52;
   --base-color-system--error-red-light: #ffc4c2;
@@ -24,7 +24,7 @@
   --base-color-neutral--neutral-darkest: #111;
   --base-color-neutral--neutral-lightest: #eee;
   --base-color-neutral--neutral-lighter: #ccc;
-  --base-color-brand--dark-blue: #0a1844;
+  --base-color-brand--dark-blue: #4071e9;
   --base-color-neutral--neutral-light: #aaa;
   --base-color-neutral--neutral: #666;
   --base-color-neutral--neutral-dark: #444;
@@ -582,7 +582,7 @@ figcaption {
 }
 
 .heading-style-h2.dark-background {
-  color: var(--text-color--text-alternate);
+  color: var(--base-color-neutral--white);
 }
 
 .rl-styleguide_callout-link-wrapper-colors {
@@ -725,12 +725,18 @@ figcaption {
 }
 
 .button {
-  border: 1px solid var(--base-color-neutral--black);
-  background-color: var(--base-color-neutral--black);
+  border: 1px solid var(--base-color-brand--orange);
+  background-color: var(--base-color-brand--orange);
   color: var(--base-color-neutral--white);
   text-align: center;
+  border-radius: 2rem;
   padding: .75rem 1.5rem;
   text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--background-color--clear-orange-background);
+  color: var(--base-color-brand--orange);
 }
 
 .button.is-link {
@@ -809,7 +815,7 @@ figcaption {
 }
 
 .button.is-small.is-secondary:hover {
-  background-color: var(--background-color--clear-yellow-background);
+  background-color: var(--background-color--clear-orange-background);
 }
 
 .button.is-small.is-filled {
@@ -819,7 +825,7 @@ figcaption {
 
 .button.is-small.is-filled:hover {
   border-color: var(--border-color--border-primary);
-  background-color: var(--background-color--clear-yellow-background);
+  background-color: var(--background-color--clear-orange-background);
 }
 
 .button.is-alternate {
@@ -851,18 +857,18 @@ figcaption {
 
 .button.is-small:hover {
   border-color: var(--border-color--border-primary);
-  background-color: var(--background-color--clear-yellow-background);
+  background-color: var(--background-color--clear-orange-background);
   color: var(--text-color--text-secondary);
 }
 
 .button.is-small.see-through {
-  background-color: var(--background-color--clear-yellow-background);
-  color: var(--text-color--text-secondary);
+  background-color: var(--background-color--clear-orange-background);
+  color: var(--base-color-brand--orange);
 }
 
 .button.is-small.see-through:hover {
-  background-color: var(--base-color-brand--blue);
-  color: var(--text-color--text-alternate);
+  background-color: var(--base-color-brand--orange);
+  color: var(--base-color-neutral--white);
 }
 
 .button.is-small {
@@ -1108,6 +1114,10 @@ figcaption {
   display: flex;
 }
 
+.icon-embed-xsmall:hover {
+  color: var(--link-color--link-secondary);
+}
+
 .icon-height-xxsmall {
   height: 1rem;
 }
@@ -1222,12 +1232,12 @@ figcaption {
   font-size: .875rem;
 }
 
-.text-size-small.text-weight-semibold {
-  color: var(--text-color--text-alternate);
+.text-size-small.text-weight-semibold.light-color {
+  color: var(--text-color--text-secondary);
 }
 
-.text-size-small.text-weight-semibold.light-color, .text-size-small.text-weight-semibold {
-  color: var(--text-color--text-secondary);
+.text-size-small.text-weight-semibold {
+  color: var(--text-color--text-primary);
 }
 
 .class-label-column {
@@ -1378,6 +1388,7 @@ figcaption {
 }
 
 .padding-global {
+  margin-top: 0;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -1634,7 +1645,7 @@ figcaption {
 
 .navbar5_component {
   border: 3px solid var(--border-color--border-primary);
-  background-color: var(--background-color--clear-yellow-background);
+  background-color: var(--background-color--clear-orange-background);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   align-items: center;
@@ -2149,9 +2160,13 @@ figcaption {
   text-decoration: underline;
 }
 
+.footer11_legal-link:hover {
+  color: var(--link-color--link-secondary);
+}
+
 .footer11_top-wrapper {
   grid-column-gap: 3vw;
-  border: 1px solid var(--base-color-brand--blue);
+  border: 1px solid var(--base-color-brand--orange);
   grid-template-rows: auto;
   grid-template-columns: .5fr .5fr;
   align-items: start;
@@ -2172,7 +2187,7 @@ figcaption {
 }
 
 .footer11_link:hover {
-  color: var(--link-color--link-alternate);
+  color: var(--link-color--link-secondary);
 }
 
 .footer11_legal-list {
@@ -2309,8 +2324,8 @@ figcaption {
 }
 
 .faq11_accordion {
-  border: 1px solid var(--base-color-brand--blue);
-  background-color: var(--background-color--clear-yellow-background);
+  border: 1px solid var(--base-color-brand--orange);
+  background-color: var(--background-color--clear-orange-background);
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -2333,8 +2348,8 @@ figcaption {
 }
 
 .cta38_link-block:hover {
-  background-color: var(--background-color--clear-yellow-background);
-  color: var(--text-color--text-secondary);
+  background-color: var(--background-color--clear-orange-background);
+  color: var(--link-color--link-primary);
 }
 
 .rl-styleguide_label-2 {
@@ -2524,7 +2539,7 @@ figcaption {
 
 .faq4_accordion {
   border: 1px solid var(--border-color--border-primary);
-  background-color: var(--background-color--clear-yellow-background);
+  background-color: var(--background-color--clear-orange-background);
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -3100,7 +3115,7 @@ figcaption {
 }
 
 .layout396_card-content {
-  background-color: var(--background-color--clear-yellow-background);
+  background-color: var(--background-color--clear-orange-background);
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
@@ -3142,7 +3157,7 @@ figcaption {
 
 .faq11_accordion-2 {
   border: 1px solid var(--border-color--border-primary);
-  background-color: var(--background-color--clear-yellow-background);
+  background-color: var(--background-color--clear-orange-background);
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -3172,7 +3187,7 @@ figcaption {
 
 .layout401_card {
   border: 1px solid var(--border-color--border-primary);
-  background-color: var(--background-color--clear-yellow-background);
+  background-color: var(--background-color--clear-orange-background);
   flex-direction: column;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
@@ -3205,8 +3220,9 @@ figcaption {
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
   border: 1px none var(--base-color-neutral--neutral-lightest);
-  background-color: var(--base-color-neutral--neutral-lightest);
+  background-color: var(--base-color-neutral--neutral-lighter);
   color: var(--base-color-neutral--black);
+  border-radius: 2rem;
   justify-content: center;
   align-items: center;
   padding: .25rem .5rem;
@@ -3248,6 +3264,7 @@ figcaption {
 .portfolio1-related_image {
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  border-radius: 1rem;
   width: 100%;
   height: 100%;
 }
@@ -3322,7 +3339,7 @@ figcaption {
 
 .portfolio1-header_image-wrapper {
   flex: 1;
-  position: relative;
+  position: static;
 }
 
 .portfolio1-header_component {
@@ -3447,11 +3464,12 @@ figcaption {
 }
 
 .portfolio1-related_tag-item {
-  background-color: var(--background-color--clear-purple-background);
-  color: var(--link-color--link-alternate);
+  background-color: var(--background-color--clear-orange-background);
+  color: var(--text-color--text-primary);
+  border-radius: 2rem;
   padding: .25rem .5rem;
   font-size: .875rem;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -3565,11 +3583,12 @@ figcaption {
 }
 
 .portfolio1-header_tag-item {
-  background-color: var(--background-color--clear-purple-background);
-  color: var(--link-color--link-alternate);
+  background-color: var(--background-color--clear-orange-background);
+  color: var(--text-color--text-alternate);
+  border-radius: 2rem;
   padding: .25rem .5rem;
   font-size: .875rem;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -3831,7 +3850,7 @@ figcaption {
 
 .form_input-2 {
   border: 1px solid var(--border-color--border-primary);
-  background-color: var(--background-color--clear-yellow-background);
+  background-color: var(--background-color--clear-orange-background);
   color: var(--text-color--text-primary);
   height: auto;
   min-height: 2.75rem;
@@ -3891,7 +3910,7 @@ figcaption {
 
 .form_radio-icon-2.w--redirected-checked {
   border-width: 6px;
-  border-color: var(--base-color-brand--blue);
+  border-color: var(--base-color-brand--orange);
   background-color: var(--base-color-neutral--white);
   background-image: none;
 }
@@ -3914,7 +3933,7 @@ figcaption {
 }
 
 .form_message-success-2 {
-  background-color: var(--background-color--clear-yellow-background);
+  background-color: var(--background-color--clear-orange-background);
   color: var(--text-color--text-success);
   flex-direction: column;
   justify-content: center;
@@ -4092,7 +4111,7 @@ figcaption {
 
 .form_input-4 {
   border: 1px solid var(--border-color--border-primary);
-  background-color: var(--background-color--clear-yellow-background);
+  background-color: var(--background-color--clear-orange-background);
   color: var(--text-color--text-primary);
   height: auto;
   min-height: 2.75rem;
@@ -4146,7 +4165,7 @@ figcaption {
 
 .clutch-review {
   z-index: 99999;
-  border: 3px solid var(--base-color-brand--blue);
+  border: 3px solid var(--base-color-brand--orange);
   background-color: var(--base-color-neutral--white);
   border-radius: .7rem;
   margin-bottom: .5rem;
@@ -4498,7 +4517,7 @@ figcaption {
   }
 
   .menu-icon1_line-top, .menu-icon1_line-bottom {
-    background-color: var(--base-color-brand--blue);
+    background-color: var(--base-color-brand--orange);
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -4521,7 +4540,7 @@ figcaption {
   }
 
   .menu-icon1_line-middle {
-    background-color: var(--base-color-brand--blue);
+    background-color: var(--base-color-brand--orange);
     justify-content: center;
     align-items: center;
     width: 24px;
@@ -4570,7 +4589,7 @@ figcaption {
   }
 
   .menu-icon1_line-top-2 {
-    background-color: var(--base-color-brand--blue);
+    background-color: var(--base-color-brand--orange);
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -4586,7 +4605,7 @@ figcaption {
   }
 
   .menu-icon1_line-bottom-2 {
-    background-color: var(--base-color-brand--blue);
+    background-color: var(--base-color-brand--orange);
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -4631,7 +4650,7 @@ figcaption {
   }
 
   .menu-icon1_line-middle-2 {
-    background-color: var(--base-color-brand--blue);
+    background-color: var(--base-color-brand--orange);
     justify-content: center;
     align-items: center;
     width: 24px;
