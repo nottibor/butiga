@@ -7,7 +7,7 @@
   --base-color-brand--orange: #3a2af5;
   --border-color--border-primary: #3a2af5;
   --4-rem: .4rem;
-  --background-color--clear-orange-background: #3a2af51a;
+  --background-color--clear-orange-background: #3a2af512;
   --base-color-neutral--black: #000;
   --background-color--clear-purple-background: #fff3;
   --background-color--background-secondary: #3a2af5;
@@ -22,13 +22,13 @@
   --text-color--text-success: #4f9f52;
   --base-color-system--error-red-light: #ffc4c2;
   --text-color--text-error: #c83532;
-  --base-color-neutral--neutral-darker: #222;
   --base-color-neutral--neutral-lighter: #ccc;
   --base-color-neutral--neutral-lightest: #eee;
   --base-color-brand--dark-blue: #4071e9;
   --base-color-neutral--neutral-light: #aaa;
   --base-color-neutral--neutral: #666;
   --base-color-neutral--neutral-dark: #444;
+  --base-color-neutral--neutral-darker: #222;
   --base-color-neutral--neutral-darkest: #111;
   --base-color-system--success-green: #4f9f52;
   --base-color-system--error-red: #c83532;
@@ -1996,7 +1996,7 @@ figcaption {
 }
 
 .navbar12_dropdown-link:hover {
-  background-color: var(--base-color-neutral--neutral-darker);
+  background-color: var(--background-color--clear-orange-background);
 }
 
 .navbar12_icon-wrapper {
@@ -4180,7 +4180,7 @@ figcaption {
 
 .clutch-review {
   z-index: 99999;
-  border: 3px solid var(--base-color-brand--orange);
+  border: 1px solid var(--base-color-brand--orange);
   border-radius: var(--4-rem);
   background-color: var(--base-color-neutral--white);
   margin-bottom: .5rem;
