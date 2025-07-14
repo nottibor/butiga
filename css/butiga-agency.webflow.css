@@ -4,10 +4,10 @@
   --link-color--link-primary: #3a2af5;
   --link-color--link-secondary: #eb6536;
   --base-color-neutral--white: white;
-  --base-color-brand--orange: #3a2af5;
+  --base-color-brand--blue-brand: #3a2af5;
   --border-color--border-primary: #3a2af5;
   --4-rem: .4rem;
-  --background-color--clear-orange-background: #3a2af512;
+  --background-color--clear-brank-background: #3a2af512;
   --base-color-neutral--black: #000;
   --background-color--clear-purple-background: #fff3;
   --background-color--background-secondary: #3a2af5;
@@ -24,7 +24,7 @@
   --text-color--text-error: #c83532;
   --base-color-neutral--neutral-lighter: #ccc;
   --base-color-neutral--neutral-lightest: #eee;
-  --base-color-brand--dark-blue: #4071e9;
+  --base-color-brand--lighter-blue: #4071e9;
   --base-color-neutral--neutral-light: #aaa;
   --base-color-neutral--neutral: #666;
   --base-color-neutral--neutral-dark: #444;
@@ -654,7 +654,7 @@ figcaption {
 }
 
 .icon-embed-medium {
-  color: var(--base-color-brand--orange);
+  color: var(--base-color-brand--blue-brand);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -729,7 +729,7 @@ figcaption {
 
 .button {
   border-radius: var(--4-rem);
-  background-color: var(--base-color-brand--orange);
+  background-color: var(--base-color-brand--blue-brand);
   color: var(--base-color-neutral--white);
   text-align: center;
   padding: .75rem 1.5rem;
@@ -737,8 +737,8 @@ figcaption {
 }
 
 .button:hover {
-  background-color: var(--background-color--clear-orange-background);
-  color: var(--base-color-brand--orange);
+  background-color: var(--background-color--clear-brank-background);
+  color: var(--base-color-brand--blue-brand);
 }
 
 .button.is-link {
@@ -809,7 +809,7 @@ figcaption {
 }
 
 .button.is-small.is-secondary:hover {
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
 }
 
 .button.is-small.is-filled {
@@ -819,7 +819,7 @@ figcaption {
 
 .button.is-small.is-filled:hover {
   border-color: var(--border-color--border-primary);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
 }
 
 .button.is-alternate {
@@ -851,15 +851,15 @@ figcaption {
 
 .button.is-small.see-through {
   border-radius: var(--4-rem);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   box-shadow: none;
-  color: var(--base-color-brand--orange);
+  color: var(--base-color-brand--blue-brand);
   border-style: none;
   border-width: 1px;
 }
 
 .button.is-small.see-through:hover {
-  background-color: var(--base-color-brand--orange);
+  background-color: var(--base-color-brand--blue-brand);
   color: var(--base-color-neutral--white);
 }
 
@@ -875,13 +875,13 @@ figcaption {
 }
 
 .button.max-width-full.see-through {
-  background-color: var(--background-color--clear-orange-background);
-  color: var(--base-color-brand--orange);
+  background-color: var(--background-color--clear-brank-background);
+  color: var(--base-color-brand--blue-brand);
   border-style: none;
 }
 
 .button.max-width-full.see-through:hover {
-  background-color: var(--base-color-brand--orange);
+  background-color: var(--base-color-brand--blue-brand);
   color: var(--base-color-neutral--white);
 }
 
@@ -1659,7 +1659,7 @@ figcaption {
 
 .navbar5_component {
   border: 3px solid var(--border-color--border-primary);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   align-items: center;
@@ -1996,7 +1996,7 @@ figcaption {
 }
 
 .navbar12_dropdown-link:hover {
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
 }
 
 .navbar12_icon-wrapper {
@@ -2181,7 +2181,7 @@ figcaption {
 .footer11_top-wrapper {
   grid-column-gap: 3vw;
   border-radius: var(--4-rem);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   grid-template-rows: auto;
   grid-template-columns: .5fr .5fr;
   align-items: start;
@@ -2270,7 +2270,7 @@ figcaption {
 
 .testimonials {
   border-radius: var(--4-rem);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   margin-left: 4%;
   margin-right: 4%;
 }
@@ -2341,7 +2341,7 @@ figcaption {
 
 .faq11_accordion {
   border-radius: var(--4-rem);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -2364,7 +2364,7 @@ figcaption {
 }
 
 .cta38_link-block:hover {
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   color: var(--link-color--link-primary);
 }
 
@@ -2554,7 +2554,7 @@ figcaption {
 
 .faq4_accordion {
   border-radius: var(--4-rem);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -3131,7 +3131,7 @@ figcaption {
 
 .layout396_card-content {
   border-radius: var(--4-rem);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
@@ -3174,7 +3174,7 @@ figcaption {
 
 .faq11_accordion-2 {
   border-radius: var(--4-rem);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -3204,7 +3204,7 @@ figcaption {
 
 .layout401_card {
   border-radius: var(--4-rem);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   flex-direction: column;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
@@ -3481,7 +3481,7 @@ figcaption {
 }
 
 .portfolio1-related_tag-item {
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   color: var(--text-color--text-primary);
   border-radius: 2rem;
   padding: .25rem .5rem;
@@ -3596,7 +3596,7 @@ figcaption {
 }
 
 .portfolio1-header_tag-item {
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   color: var(--text-color--text-alternate);
   border-radius: 2rem;
   padding: .25rem .5rem;
@@ -3864,7 +3864,7 @@ figcaption {
 .form_input-2 {
   border: .5px none var(--base-color-neutral--black);
   border-radius: var(--4-rem);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   color: var(--text-color--text-primary);
   height: auto;
   min-height: 2.75rem;
@@ -3924,7 +3924,7 @@ figcaption {
 
 .form_radio-icon-2.w--redirected-checked {
   border-width: 6px;
-  border-color: var(--base-color-brand--orange);
+  border-color: var(--base-color-brand--blue-brand);
   background-color: var(--base-color-neutral--white);
   background-image: none;
 }
@@ -3947,7 +3947,7 @@ figcaption {
 }
 
 .form_message-success-2 {
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   color: var(--text-color--text-success);
   flex-direction: column;
   justify-content: center;
@@ -4125,7 +4125,7 @@ figcaption {
 
 .form_input-4 {
   border-radius: var(--4-rem);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   color: var(--text-color--text-primary);
   border: .5px #000;
   height: auto;
@@ -4180,7 +4180,7 @@ figcaption {
 
 .clutch-review {
   z-index: 99999;
-  border: 1px solid var(--base-color-brand--orange);
+  border: 1px solid var(--base-color-brand--blue-brand);
   border-radius: var(--4-rem);
   background-color: var(--base-color-neutral--white);
   margin-bottom: .5rem;
@@ -4231,7 +4231,7 @@ figcaption {
 }
 
 .pricing18_plan {
-  border: 0px solid var(--base-color-brand--orange);
+  border: 0px solid var(--base-color-brand--blue-brand);
   border-radius: var(--4-rem);
   flex-flow: column;
   justify-content: space-between;
@@ -4242,7 +4242,7 @@ figcaption {
 }
 
 .pricing18_plan.popular, .pricing18_plan.best-value {
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
 }
 
 .pricing18_feature-list {
@@ -4453,7 +4453,7 @@ figcaption {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   border-radius: var(--4-rem);
-  background-color: var(--background-color--clear-orange-background);
+  background-color: var(--background-color--clear-brank-background);
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
@@ -4481,7 +4481,11 @@ figcaption {
 }
 
 .heading-style-h6-2.orange {
-  color: var(--base-color-brand--orange);
+  color: var(--base-color-brand--blue-brand);
+}
+
+.heading-style-h6-2.invisible {
+  color: var(--background-color--background-primary);
 }
 
 .body-11 {
@@ -4525,7 +4529,7 @@ figcaption {
 }
 
 .section_gallery14 {
-  color: var(--base-color-brand--orange);
+  color: var(--base-color-brand--blue-brand);
   overflow: hidden;
 }
 
@@ -4934,7 +4938,7 @@ figcaption {
   }
 
   .menu-icon1_line-top, .menu-icon1_line-bottom {
-    background-color: var(--base-color-brand--orange);
+    background-color: var(--base-color-brand--blue-brand);
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -4957,7 +4961,7 @@ figcaption {
   }
 
   .menu-icon1_line-middle {
-    background-color: var(--base-color-brand--orange);
+    background-color: var(--base-color-brand--blue-brand);
     justify-content: center;
     align-items: center;
     width: 24px;
@@ -5006,7 +5010,7 @@ figcaption {
   }
 
   .menu-icon1_line-top-2 {
-    background-color: var(--base-color-brand--orange);
+    background-color: var(--base-color-brand--blue-brand);
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -5022,7 +5026,7 @@ figcaption {
   }
 
   .menu-icon1_line-bottom-2 {
-    background-color: var(--base-color-brand--orange);
+    background-color: var(--base-color-brand--blue-brand);
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -5067,7 +5071,7 @@ figcaption {
   }
 
   .menu-icon1_line-middle-2 {
-    background-color: var(--base-color-brand--orange);
+    background-color: var(--base-color-brand--blue-brand);
     justify-content: center;
     align-items: center;
     width: 24px;
