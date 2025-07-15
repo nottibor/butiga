@@ -547,8 +547,10 @@ figcaption {
 }
 
 .text-size-medium {
+  color: var(--text-color--text-primary);
   font-size: 1rem;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .text-size-medium.text-left-align {
@@ -1243,7 +1245,9 @@ figcaption {
 }
 
 .text-size-small {
+  color: var(--text-color--text-primary);
   font-size: .875rem;
+  text-decoration: none;
 }
 
 .text-size-small.text-weight-semibold.light-color {
@@ -4655,7 +4659,8 @@ figcaption {
 
 .section_gallery2 {
   background-color: var(--\<unknown\|relume-variable-color-scheme-1-background\>);
-  color: var(--\<unknown\|relume-variable-color-scheme-1-text\>);
+  color: var(--text-color--text-primary);
+  text-decoration: none;
 }
 
 .gallery2_image {
